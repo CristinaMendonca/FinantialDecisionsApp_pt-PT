@@ -1,0 +1,10 @@
+name: endividamento
+title:
+username:
+account: enviesamentos
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 938295
+bundleId: 3468651
+url: https://enviesamentos.shinyapps.io/endividamento/
+when: 1596451345.72672
