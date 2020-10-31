@@ -5,7 +5,7 @@ library(shinydashboard)
 
 #### TAB 1 Introduction: #####
 ui = dashboardPage(
-  dashboardHeader(title = "Enviesamentos"),
+  dashboardHeader(title = "Biases"),
   dashboardSidebar(  
 
     
@@ -53,7 +53,7 @@ ui = dashboardPage(
       tabItems(
         tabItem("intro",
           box(width=12,
-            h2("Heuristics and Biases", align="center"),
+            h2("Financial decisions", align="center"),
             br(),
             p("Welcome to this app on the impact of heuristics and biases in financial decisions! Here, you can find out more about the simple strategies (i.e. heuristics) that we use in our day-to-day lives to provide answers for the huge number of decisions we face, some of which are simple but others more complex."),
             p("These decision strategies or heuristics are often useful and effective, but given their simplicity they are also a source of bias. This app aims to explain the most common errors and decision biases that result from the use of heuristics as well as to provide ways to avoid or mitigate them."),
